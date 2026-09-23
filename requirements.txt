@@ -1,0 +1,14 @@
+# ShyniCover: python -m venv .venv && .venv\Scripts\python -m pip install -r requirements.txt
+# torch ставится ОТДЕЛЬНО под CUDA:
+#   .venv\Scripts\python -m pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu130
+# RVC-модели: D:\ModelsVoice, rmvpe.onnx: D:\MMVCServerSIO\pretrain, hubert: cover\_rvc\hubert_rvc.pt
+python-dotenv
+google-genai
+soundfile
+librosa
+numpy
+scipy
+demucs
+onnxruntime
+faiss-cpu
+transformers

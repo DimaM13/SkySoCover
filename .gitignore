@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+*.wav
+*.mp3
+.venv/
+hubert_rvc.pt
+voices.json
